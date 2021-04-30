@@ -16,7 +16,7 @@ app.use(fileUpload());
 
 const port = 5000;
 app.get('/', (req, res) => {
-    res.send("hello from db it's working workings");
+    res.send("Welcome to Doctors Portal  Backed");
 })
 
 const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
